@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="..\css\navcss.css" type="text/css"?>
+<?xml-stylesheet href="..\css\aboutcss.css" type="text/css"?>
+<?xml-stylesheet href="..\css\footer.css" type="text/css"?>
+
+<page xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <title>YammyGamm-кондитерская мечты. Главная</title>
+  </head>
+  
+  <body>
+    <header>
+      <nav id="nav">
+        <logo id="logo">
+          <a href="..\html\main.html">
+          <img class="iconlogo" src="..\img\logo.png" alt="logo" width="153" height="79"/>
+        </a>
+        </logo>
+        
+        <links id="links">
+          <ul class="navlinks" style="margin: -60px 0px 40px 253px;">
+            <li><a href="..\html\catalogCakes.html" id="link1">Каталог</a></li>
+            <li><a href="about.xml" id="link2">О нас</a></li>
+            <li><a href="..\html\main.html#dost" id="link3">Доставка и оплата</a></li>
+            <li><a href="..\html\main.html#otzv" id="link4">Отзывы</a></li>
+            <li><a href="..\html\carzin.html" id="link5">Корзина</a></li>
+          </ul>
+        </links>
+        
+        <burger-nav id="burger-nav">
+          <menu-container class="menu-container">
+            <menu class="menu">
+    <ul class="options">
+            <li class="option"><a href="..\html\catalogCakes.html" id="link1">Каталог</a></li>
+            <li class="option"><a href="about.xml" id="link2">О нас</a></li>
+            <li class="option"><a href="..\html\main.html#dost" id="link3">Доставка и оплата</a></li>
+            <li class="option"><a href="..\html\main.html#otzv" id="link4">Отзывы</a></li>
+            <li class="option"><a href="..\html\carzin.html" id="link5">Корзина</a></li>
+    </ul>
+</menu>
+            <burger class="burger" onclick="document.querySelector('.menu').classList.toggle('active')">
+              <line class="burger-line"/>
+              <line class="burger-line"/>
+              <line class="burger-line"/>
+            </burger>
+          </menu-container>
+        </burger-nav>
+      </nav>
+    </header>
+
+    <content>
+      <textAbout class="textAbout">О нашей кондитерской</textAbout>
+      
+      <blocs class="blocs">
+        <block1 class="block1">
+          <text1 class="text1">Владельцем данной кондитерской является Дим Димыч — повар-кондитер с высшим образованием и множеством курсов по повышению квалификации. С раннего детства его интересовала выпечка. После множества удачных экспериментов он решил поделиться своими шедеврами с большим количеством людей и арендовал помещение в самом центре Минска. Так и появилась кондитерская YammyGamm.</text1>
+          <image1 class="image1"><img src="..\img\aboutUsImg.png" class="img11"/></image1>
+        </block1>
+        
+        <block2 class="block2">
+          <text2 class="text2">Сегодня "YammyGamm" - это не просто кондитерская, а настоящее кулинарное искусство. Дим Димыч и его команда продолжают радовать своих клиентов новыми и оригинальными десертами, сохраняя традиции и добавляя современные нотки. Каждый кусочек, приготовленный в "YammyGamm", - это результат многолетнего опыта, любви к своему делу и стремления сделать мир немного слаще.</text2>
+        </block2>
+      </blocs>
+    </content>
+
+    <footer class="footer">
+      <part1 class="part1">
+        <contacts class="contacts">Наши контакты</contacts>
+        <spisokContacts class="spisokContacts">
+          <ul>
+            <li>+375 (44) ... 78 89</li>
+            <li>yammygamm@gmail.com</li>
+            <li>г.Минск, ул.Бобруйская-25</li>
+          </ul>
+        </spisokContacts>
+        
+        <sotial class="sotial">
+          <weInSotial class="weInSotial">Мы в соц. сетях</weInSotial>
+          <iconSothial class="iconSothial" style="margin-left:100px;">
+            <a href=""><img src="..\svg\telegram-svgrepo-com.svg" alt="telegram"/></a>
+            <a href=""><img src="..\svg\instagram-svgrepo-com.svg" alt="instagram"/></a>
+            <a href=""><img src="..\svg\tik-tok-brand-assets-video-socialnetwork-oneline-svgrepo-com.svg" alt="tiktok"/></a>
+          </iconSothial>
+        </sotial>
+      </part1>
+      
+      <part2 class="part2">
+        <carta class="carta">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d430.9132891243892!2d27.557919015148997!3d53.88971867028776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdbb88f3f8f%3A0x84c074a019efa876!2z0J7QsdGJ0LXQttC40YLQuNC1IOKEljEg0JHQk9Ci0KM!5e0!3m2!1sru!2sro!4v1743092430459!5m2!1sru!2sro"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </carta>
+      </part2>
+    </footer>
+    
+    <script src="..\js\button.js"/>
+  </body>
+</page>

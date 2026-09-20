@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <product>
+        <name>Торт "Медовик"</name>
+        <image src="D:/codeconditer/img/image4.png" alt="Наполеон"/>
+        <price>80руб.-1кг</price>
+    </product>
+    <product>
+        <name>Торт "Красный бархат"</name>
+        <image src="D:/codeconditer/img/image4.png" alt="Наполеон"/>
+        <price>70руб.-1кг</price>
+    </product>
+    <product>
+        <name>Торт "Сникерс"</name>
+        <image src="D:/codeconditer/img/image4.png" alt="Наполеон"/>
+        <price>90руб.-1кг</price>
+    </product>
+    <product>
+        <name>Торт "Лимонный"</name>
+        <image src="D:/codeconditer/img/image4.png" alt="Наполеон"/>
+        <price>40руб.-1кг</price>
+    </product>
+</catalog>

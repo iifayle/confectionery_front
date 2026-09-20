@@ -1,0 +1,95 @@
+.spisokContacts ul {
+    list-style: none; /* Убираем стандартные маркеры списка */
+    padding: 0;
+    margin: 0;
+}
+
+.spisokContacts li {
+    display: flex; /* Для выравнивания иконки и текста */
+    align-items: center;
+    margin-bottom: 30px; /* Интервал между элементами списка */
+    font-size: 16px; /* Размер шрифта текста */
+    color: #593A2F;
+    margin-top: 25px;
+}
+
+.spisokContacts li::before {
+    content: ''; /* Вставляем иконку перед текстом */
+    display: inline-block;
+    width: 30px; /* Ширина иконки */
+    height: 30px; /* Высота иконки */
+    margin-right: 10px; /* Отступ между иконкой и текстом */
+    background-size: cover; /* Подгоняем размер фона */
+    background-position: center;
+}
+
+.spisokContacts li:nth-child(1)::before {
+    background-image: url('D:/codeconditer/svg/telephone-signal-svgrepo-com.svg'); /* Иконка для телефона */
+}
+
+.spisokContacts li:nth-child(2)::before {
+    background-image: url('D:/codeconditer/svg/email-svgrepo-com.svg'); /* Иконка для email */
+}
+
+.spisokContacts li:nth-child(3)::before {
+    background-image: url('D:/codeconditer/svg/address-svgrepo-com.svg'); /* Иконка для адреса */
+}
+
+.footer{
+    background-color: #FEEBE3;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;   
+}
+.contacts{
+    color: #593A2F;
+    font-size: 36px;
+    margin-left: 40px;
+}
+.weInSotial{
+    color: #593A2F;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+.iconSothial {
+    display: flex; /* Горизонтальное выравнивание иконок */
+    gap: 15px; /* Уменьшает расстояние между иконками */
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+}
+
+.iconSothial a {
+    display: flex; /* Убирает ненужные отступы вокруг ссылок */
+    padding: 0;
+    margin: 0;
+}
+
+.iconSothial img {
+    width: 50px; /* Размер каждой иконки */
+    height: 50px;
+    margin: 0; /* Убираем дополнительные отступы */
+    padding: 0; /* Убираем внутренние отступы */
+    border-radius: 5px; /* При необходимости можно добавить закругление */
+    transition: transform 0.3s ease; /* Добавляем плавный эффект при наведении */
+}
+.iconSothial svg{
+    width: 50px; /* Размер каждой иконки */
+    height: 50px;
+    margin: 0; /* Убираем дополнительные отступы */
+    padding: 0;
+}
+.footer iframe{
+    border-radius: 40px;
+    width: 700px;
+    height: 350px;
+    border: 0;
+}
+

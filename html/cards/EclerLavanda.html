@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>YammyGamm-Эклер "Лаванда с белым шоколадом".</title>
+    <link rel="stylesheet" href="..\..\css\navcss.css">
+    <link rel="stylesheet" href="..\..\css\footer.css">
+    <link rel="stylesheet" href="..\..\css\cards.css">
+    <link rel="icon" href="..\..\img\icon.jpg">
+</head>
+<body>
+    <header>
+        <div id="nav">
+            <div id="logo">
+                <a href="..\main.html">
+                <svg>
+                 <img class="iconlogo" src="..\..\svg\logo.svg" alt="logo" width="100%">
+                </svg>
+            </a>
+            </div>
+            <div id="links">
+                <ul class="navlinks">
+                    <li><a href="..\catalogCakes.html" id="link1">Каталог</a></li>
+                    <li ><a href="..\..\xml\about.xml" id="link2">О нас</a></li>
+                    <li ><a href="..\main.html#dost" id="link3">Доставка и оплата</a></li>
+                    <li><a href="..\main.html#otzv" id="link4">Отзывы</a></li>
+                    <li><a href="..\carzin.html" id="link4">Корзина</a></li>
+                </ul>
+            </div>
+            <div id="burger-nav">
+                <div class="menu-container">
+                    <div class="menu">
+                        <div class="options">
+                            <div class="option selected"><a href="..\catalogCakes.html" id="link1">Каталог</a></div>
+                            <div class="option"><a href="..\..\xml\about.xml" id="link2">О нас</a></div>
+                            <div class="option"><a href="..\main.html#dost" id="link3">Доставка и оплата</a></div>
+                            <div class="option"><a href="..\main.html#otzv" id="link4">Отзывы</a></div>
+                            <div class="option"><a href="..\carzin.html" id="link4">Корзина</a></div>
+                            <div class="option"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="burger" onclick="document.querySelector('.menu').classList.toggle('active')">
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                        <div class="burger-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="products-conteiner">
+            <div class="img-conteiter">
+                <img src="https://avatars.mds.yandex.net/i?id=29509229290daa91a7ba4afcd43344c1a9417aab-5878100-images-thumbs&n=13" alt="Лаванда с белым шоколадом" class="imgProd">
+            </div>
+            <div class="text-conteiner">
+                <div class="name">Эклер "Лаванда с белым шоколадом"</div>
+                <div class="price">7,5руб.-1шт</div>
+                <div class="textAbout">Этот эклер подарит вам нежный аромат лаванды и сладость белого шоколада. Идеальный выбор для ценителей утонченного вкуса!</div>
+                <div class="kbzy">
+                    <table class="nutrition-table">
+                        <thead>
+                            <tr><td colspan="2">Пищевая ценность (на 100 г)</td></tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Калории</td><td>300 ккал</td></tr>
+                            <tr><td>Белки</td><td>4 г</td></tr>
+                            <tr><td>Жиры</td><td>14 г</td></tr>
+                            <tr><td>Углеводы</td><td>38 г</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="button">
+                    <button class="butcarzin">В корзину</button>
+                <div id="cart-counter-container" style="display: none;">
+                    <button id="decrement">-</button>
+                    <span id="count">1</span>
+                    <button id="increment">+</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="part1">
+            <div class="contacts">Наши контакты</div>
+            <div class="spisokContacts">
+                <ul>
+                    <li>+375  (44) ... 78 89</li>
+                    <li>yammygamm@gmail.com</li>
+                    <li>г.Минск, ул.Бобруйская-25</svg></li>
+                </ul>
+            </div>
+            <div class="sotial">
+                <div class="weInSotial">Мы в соц. сетях</div>
+                <div class="iconSothial">
+                <a href="https://web.telegram.org/">
+                    <svg>
+                        <img src="..\svg\telegram-svgrepo-com.svg" alt="telegram">
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/">
+                    <svg>
+                        <img src="..\svg\instagram-svgrepo-com.svg" alt="instagram">
+                    </svg>
+                </a>
+                <a href="https://www.tiktok.com/ru-RU/">
+                    <svg>
+                        <img src="..\svg\tik-tok-brand-assets-video-socialnetwork-oneline-svgrepo-com.svg" alt="tiktok">
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="part2">
+            <div class="carta">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d430.9132891243892!2d27.557919015148997!3d53.88971867028776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdbb88f3f8f%3A0x84c074a019efa876!2z0J7QsdGJ0LXQttC40YLQuNC1IOKEljEg0JHQk9Ci0KM!5e0!3m2!1sru!2sro!4v1743092430459!5m2!1sru!2sro"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>   
+        <div class="me">Разработала Костюченко Анна 1ФИТ2-2</div>         
+        </div>
+    </footer>
+    <script src="..\..\js\button.js"></script>
+    <script src="..\..\js\quantiti.js"></script>
+</body>
+</html>

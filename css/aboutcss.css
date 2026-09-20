@@ -1,0 +1,100 @@
+body{
+    background-color: #FBF8F8;
+    font-family: 'CormorantGaramond';
+}
+@font-face 
+{
+font-family:'CinzelRus'; /* Задаем имя шрифта */
+src:url("D:/codeconditer/static/cinzel_regular.ttf")
+}
+@font-face{
+    font-family: 'CormorantGaramond';
+    src: url("../static/CormorantGaramond-Regular.ttf");
+}
+footer{
+    font-family: 'CinzelRus';
+}
+.textAbout{
+    font-size: 45px;
+    color: #593A2F;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin-top: 50px;
+margin-left: 60px;
+
+}
+.text1{
+    font-size: 30px;
+    color: #593A2F;
+    width: 550px;
+    margin-left: -350px;
+    background-color: #FEEBE3;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+.img11{
+    width: 450px;
+    height: 450px;
+    margin-right: -350px;
+}
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+    
+
+}
+.block2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.text2{
+    width: 1300px;
+    font-size: 30px;
+    color: #593A2F;
+    border-radius: 20px;
+    background-color: #FEEBE3;
+    padding: 20px;
+}
+@media screen and (max-width: 1320px) {
+    .textAbout{
+        margin-top: 180px;
+
+    }
+    .block1{
+        margin-left: 150px;
+    }
+    .img11{
+        margin-left: -250px;
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 1020px) {
+    .textAbout{
+        margin-top: 180px;
+    }
+    .block1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;     /* Центрируем элементы по горизонтали */
+        justify-content: center; /* Центрируем по вертикали (опционально) */
+        width: 100%;            /* Занимаем всю доступную ширину */
+        max-width: 400px;       /* Ограничиваем максимальную ширину (настройте по необходимости) */
+        margin-left: 20px;
+    }
+    .text1{
+        margin-left: 0px;
+    }
+    .img11{
+        margin-left: -250px;
+        margin-top: -50px;
+    }
+}
